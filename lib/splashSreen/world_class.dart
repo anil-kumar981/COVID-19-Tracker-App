@@ -44,6 +44,8 @@ class _WorldClassState extends State<WorldClass> with TickerProviderStateMixin {
       body: SingleChildScrollView(
         child: SafeArea(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
               height: MediaQuery.of(context).size.height * .01,
